@@ -231,12 +231,6 @@
                             <constraint firstItem="0QN-bc-pzC" firstAttribute="centerY" secondItem="Y9k-Gb-ATH" secondAttribute="centerY" constant="32" id="fvj-pU-3we"/>
                             <constraint firstItem="NFq-DV-ExA" firstAttribute="centerY" secondItem="Y9k-Gb-ATH" secondAttribute="centerY" constant="20" id="igT-zB-SQv"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="TSI-P9-7kw"/>
-                                <exclude reference="0QN-bc-pzC"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="kcF-ro-RPJ">
                         <barButtonItem key="rightBarButtonItem" title="3 =&gt;" id="t08-vD-M6O">
@@ -270,7 +264,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вам нравится быть с друзьями. Вы окржаете себя людьми, которые вам нравятся и всегда готовы помочь" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SaV-kw-xg3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Вам нравится быть с друзьями. Вы окржаете себя людьми, которые вам нравятся и всегда готовы помочь." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SaV-kw-xg3">
                                         <rect key="frame" x="0.0" y="68" width="335" height="61"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
