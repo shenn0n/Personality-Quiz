@@ -8,7 +8,7 @@
 struct Question {
     var text: String
     var type: ResponseType
-    var answers: [Ansver]
+    var answers: [Answer]
 }
 
 extension Question {
@@ -18,30 +18,30 @@ extension Question {
                 text: "Какую пищу вы предпочитаете?",
                 type: .single,
                 answers: [
-                    Ansver(text: "Стейк", type: .dog),
-                    Ansver(text: "Рыба", type: .cat),
-                    Ansver(text: "Морковь", type: .rabbit),
-                    Ansver(text: "Кукуруза", type: .turtale)
+                    Answer(text: "Стейк", type: .dog),
+                    Answer(text: "Рыба", type: .cat),
+                    Answer(text: "Морковь", type: .rabbit),
+                    Answer(text: "Кукуруза", type: .turtale)
                 ]
             ),
             Question(
                 text: "Что вам нравится больше?",
                 type: .multiple,
                 answers: [
-                    Ansver(text: "Стейк", type: .dog),
-                    Ansver(text: "Рыба", type: .cat),
-                    Ansver(text: "Морковь", type: .rabbit),
-                    Ansver(text: "Кукуруза", type: .turtale)
+                    Answer(text: "Плавать", type: .dog),
+                    Answer(text: "Спать", type: .cat),
+                    Answer(text: "Обниматься", type: .rabbit),
+                    Answer(text: "Есть", type: .turtale)
                 ]
             ),
             Question(
                 text: "Дюбите ли вы поездки на машине?",
                 type: .ranged,
                 answers: [
-                    Ansver(text: "Ненавижу", type: .dog),
-                    Ansver(text: "Нервничаю", type: .cat),
-                    Ansver(text: "Не замечаю", type: .rabbit),
-                    Ansver(text: "Обожаю", type: .turtale)
+                    Answer(text: "Ненавижу", type: .dog),
+                    Answer(text: "Нервничаю", type: .cat),
+                    Answer(text: "Не замечаю", type: .rabbit),
+                    Answer(text: "Обожаю", type: .turtale)
                 ]
             ),
         ]
